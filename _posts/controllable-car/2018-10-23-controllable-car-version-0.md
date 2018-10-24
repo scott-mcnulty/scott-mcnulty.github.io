@@ -5,7 +5,7 @@ excerpt: "Version 0 of a controllable car that was made using Unity and Google's
 date:   2018-10-23 20:15:48 -0500
 search: true
 header:
-  teaser: /assets/controllable-car/version-0.gif
+  teaser: /assets/images/controllable-car/version-0.gif
 # categories:
 #   - projects
 tags:
@@ -31,4 +31,4 @@ Main Feature Summary:
 
 Here is a short demo gif:
 
-![v0 Demo](/assets/controllable-car/version-0.gif)
+![v0 Demo](/assets/images/controllable-car/version-0.gif)
