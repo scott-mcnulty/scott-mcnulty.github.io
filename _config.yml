@@ -46,7 +46,6 @@ include:
 # to override the default setting.
 exclude:
   - _posts/sample-posts
-  - _pages/about.md
   - Gemfile
   - Gemfile.lock
   - node_modules
