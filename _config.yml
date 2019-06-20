@@ -83,7 +83,7 @@ author:
       # url: "https://instagram.com/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/scott-mcnulty-908291100/"
+      url: "https://www.linkedin.com/in/scott-mcnulty/"
 
 footer:
   links:
@@ -98,7 +98,7 @@ footer:
       # url: "https://instagram.com/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/scott-mcnulty-908291100/"
+      url: "https://www.linkedin.com/in/scott-mcnulty/"
 
 defaults:
   # _posts
