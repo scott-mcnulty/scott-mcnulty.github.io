@@ -6,18 +6,18 @@
 $background-color: #141010 !default;
 $text-color: #fff6fb !default;
 $primary-color: #ff7b00 !default;
+$dark-primary: mix(#000, $primary-color, 25%);
 $border-color: mix(#fff, $background-color, 20%) !default;
 $code-background-color: mix(#000, $background-color, 15%) !default;
 $code-background-color-dark: mix(#000, $background-color, 20%) !default;
 $form-background-color: mix(#000, $background-color, 15%) !default;
-$footer-background-color: mix(#000, $primary-color, 30%) !default;
+$footer-background-color: mix(#000, $primary-color, 25%) !default;
 $link-color: $primary-color !default;
 $link-color-hover: mix(#fff, $link-color, 25%) !default;
 $link-color-visited: mix(#000, $link-color, 25%) !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
 $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
-$pagination-color: mix(#000, $primary-color, 30%);
 
 /* neon syntax highlighting (base16) */
 $base00: #ffffff !default;
@@ -51,12 +51,26 @@ $base0f: #cc6633 !default;
 /* next/previous buttons */
 .pagination--pager {
   color: $text-color;
-  background-color: $pagination-color;
+  background-color: $dark-primary;
   border-color: transparent;
 
   &:visited {
     color: $text-color;
   }
+}
+
+.toc {
+    .nav__title {
+        background-color: $dark-primary !important;
+    }
+
+    .toc__menu a:hover {
+        color: $primary-color;
+    }
+
+    .active a:hover {
+        color: black !important;
+    }
 }
 
 .ais-search-box .ais-search-box--input {
