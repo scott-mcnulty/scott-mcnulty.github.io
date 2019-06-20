@@ -5,6 +5,7 @@ excerpt: "Simple python email server that uses a gmail account to send emails"
 date:   2019-06-18 10:00:00 -0500
 search: true
 toc: true
+toc_label: "Table of Contents"
 toc_sticky: true
 comments: true
 categories:
@@ -13,7 +14,7 @@ tags:
   - Python
   - Flask
   - yagmail
-  - heroku
+  - Heroku
 ---
 
 For a side project I wanted to be allow users to be able to send me emails but I didn't want to use a third party service or have my email in a mailto in the client so I made this small email api.

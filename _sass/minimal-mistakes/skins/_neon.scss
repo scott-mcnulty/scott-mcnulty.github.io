@@ -42,6 +42,12 @@ $base0f: #cc6633 !default;
   color: inherit;
 }
 
+.page__hero--overlay {
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1.00px;
+}
+
 /* next/previous buttons */
 .pagination--pager {
   color: $text-color;
