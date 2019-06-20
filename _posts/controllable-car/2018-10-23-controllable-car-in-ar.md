@@ -9,6 +9,7 @@ tags:
 date: 2018-10-23 20:15:48 -0500
 repository: scott-mcnulty/ar-experimentation
 # toc: true
+comments: true
 header:
 #   image: /assets/images/unsplash-gallery-image-1.jpg
   teaser: assets/images/controllable-car/version-0.gif

@@ -4,6 +4,7 @@ title:  "Selenium Internet Checker"
 excerpt: "A python script using Selenium to check if my internet is still up"
 date:   2019-03-13 20:15:48 -0500
 search: true
+comments: true
 header:
   teaser: /assets/images/internet-checker/internet-checker.gif
 categories:

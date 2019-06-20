@@ -6,6 +6,7 @@ date:   2019-06-18 10:00:00 -0500
 search: true
 toc: true
 toc_sticky: true
+comments: true
 categories:
   - projects
 tags:
