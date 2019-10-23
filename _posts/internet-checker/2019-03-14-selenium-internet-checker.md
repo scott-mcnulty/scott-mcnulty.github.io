@@ -2,7 +2,7 @@
 layout: single
 title:  "Selenium Internet Checker"
 excerpt: "A python script using Selenium to check if my internet is still up"
-date:   2019-03-13 20:15:48 -0500
+date:   2019-10-22 19:28:00 -0500
 search: true
 comments: true
 header:
@@ -14,7 +14,7 @@ tags:
   - Selenium
 ---
 
-The modem at my parent's house wasn't very good because it dropped the internet connection every few hours. Usually I'd walk downstairs to restart it but after a few weeks of that I got fed up with it so I made this script to check the modem's status. If the modem is connected to the internet, great! Otherwise if it's not connected then the script restarts the modem in an attempt to reconnect it.
+Every so often the modem would drop the connection so I made this script to check if it's still connected and to reboot the modem if not.
 
 Here's a demo:
 
